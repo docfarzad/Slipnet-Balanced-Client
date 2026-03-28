@@ -33,7 +33,7 @@ pip install requests
 
 ## How to use
 
-1. Run the app:
+1. Simply run the .exe release file available [here](https://github.com/docfarzad/Slipnet-Balanced-Client/releases). You can also run the app in Python:
 
 ```bash
 python "Slipnet Balanced Client.py"
@@ -97,5 +97,5 @@ pyinstaller --onefile --noconsole --name "Slipnet Balanced Client" --add-binary 
 - **Scan is slow**: reduce worker count if your system/network is overloaded, or increase it for faster testing (with caution).
 
 ## Disclaimer
-
-Use only on networks/systems where you have permission. You are responsible for compliant and legal usage.
+- The app does not support encoded connection strings.
+- Use only on networks/systems where you have permission. You are responsible for compliant and legal usage.
