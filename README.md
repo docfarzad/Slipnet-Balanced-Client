@@ -17,7 +17,7 @@ Simple desktop tool to find working DNS resolvers for `slipnet.exe`, then run a 
 - Windows (the project expects `slipnet.exe`).
 - Python 3.9+ recommended.
 - Python package: `requests`
-- `slipnet.exe` in the same folder as `Resolver Finder.py`
+- `slipnet.exe` in the same folder as `Slipnet Balanced Client.py`
 
 Install dependency:
 
@@ -27,7 +27,7 @@ pip install requests
 
 ## Files
 
-- `Resolver Finder.py` - GUI app and proxy logic.
+- `Slipnet Balanced Client.py` - GUI app and proxy logic.
 - `slipnet.exe` - backend executable used for resolver tunneling.
 
 ## How to use
@@ -35,7 +35,7 @@ pip install requests
 1. Run the app:
 
 ```bash
-python "Resolver Finder.py"
+python "Slipnet Balanced Client.py"
 ```
 
 2. In the UI, click **Browse IP List** and choose your resolver list file.
@@ -81,7 +81,7 @@ Example:
 
 ## Troubleshooting
 
-- **"Executable not found"**: make sure `slipnet.exe` is next to `Resolver Finder.py`.
+- **"Executable not found"**: make sure `slipnet.exe` is next to `Slipnet Balanced Client.py`.
 - **No good resolvers found**: check your list quality and Slipnet connection string.
 - **Proxy not working in another device**: ensure firewall/network allows ports `1080` and `8080`.
 - **Scan is slow**: reduce worker count if your system/network is overloaded, or increase it for faster testing (with caution).
