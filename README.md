@@ -48,6 +48,7 @@ python "Slipnet Balanced Client.py"
 - SOCKS5: `your_local_ip:1080`
 - HTTP: `your_local_ip:8080`
 8. Optional: click **Verify Good Resolvers' Quality** to stress-test and mark unstable entries.
+9. If you checked or unchecked any new resolvers, click Activate Selected again so the changes are applied to the backend resolver pool.
 
 ## Resolver list format
 
