@@ -46,7 +46,7 @@ pip install requests
 python "Slipnet Balanced Client.py"
 ```
 2. در محیط برنامه روی Browse IP List کلیک کنید و فایل لیست Resolver ها را انتخاب کنید.  
-3. Slipnet connection string خود را وارد کنید.  
+3. مقدار Slipnet connection string خود را وارد کنید.  
 4. مقدار Workers را تنظیم کنید و روی Start Scan کلیک کنید.  
 5. در حین یا پس از پایان اسکن، Resolver های سالم را انتخاب کنید.
 6. روی Activate Selected کلیک کنید.
