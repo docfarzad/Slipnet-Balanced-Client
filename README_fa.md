@@ -23,9 +23,11 @@
 - پکیج پایتون: requests  
 - فایل slipnet.exe باید در همان پوشه فایل Slipnet Balanced Client.py باشد  
 
-نصب dependency:
+نصب نیازمندی:
 
+```bash
 pip install requests
+```
 
 ---
 
