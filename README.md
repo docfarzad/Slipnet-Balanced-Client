@@ -4,7 +4,7 @@ Simple desktop tool to find working DNS resolvers for `slipnet.exe`, then run a 
 
 ## What it does
 
-- Loads a text file of resolver IPs (one per line).
+- Loads a text file of resolver IPs (one per line). Repeated lines are deduplicated automatically. 
 - Scans them in parallel and keeps only working ones.
 - Lets you pick which good resolvers to activate.
 - Starts local proxy servers:
@@ -44,8 +44,8 @@ python "Slipnet Balanced Client.py"
 5. During or after the scan completes, select good resolvers in the table (`[ ]` / `[x]` column).
 6. Click **Activate Selected** to start the pool.
 7. Use the shown local proxy addresses in your browser/app:
-- SOCKS5: `your-local-ip:1080`
-- HTTP: `your-local-ip:8080`
+- SOCKS5: `your_local_ip:1080`
+- HTTP: `your_local_ip:8080`
 8. Optional: click **Verify Good Resolvers' Quality** to stress-test and mark unstable entries.
 
 ## Resolver list format
