@@ -14,7 +14,7 @@ Simple desktop tool to find working DNS resolvers for `slipnet.exe`, then run a 
 
 ## Requirements
 
-- Windows (the project expects `slipnet.exe`).
+- Windows (the project expects `slipnet.exe`, downloadable from [here](https://github.com/anonvector/SlipNet/releases/)).
 - Python 3.9+ recommended.
 - Python package: `requests`
 - `slipnet.exe` in the same folder as `Slipnet Balanced Client.py`
@@ -78,6 +78,15 @@ Example:
 - Supports both SOCKS5 and HTTP clients outside the machine on the same network.
 - Better stability from failure tracking + cooldown logic.
 - Lets you build a custom active pool instead of using all “good” resolvers blindly.
+
+## Build locally from source
+
+1. Switch to repository directory
+2. Build the app:
+
+```bash
+pyinstaller --onefile --noconsole --name "Slipnet Balanced Client" --add-binary "slipnet.exe;." "Slipnet Balanced Client.py"
+```
 
 ## Troubleshooting
 
