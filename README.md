@@ -1,4 +1,5 @@
 # Slipnet Balanced Client
+[ [English](https://github.com/docfarzad/Slipnet-Balanced-Client/tree/main) |‌ [فارسی / Persian](https://github.com/docfarzad/Slipnet-Balanced-Client/blob/main/README_fa.md) ]
 
 Simple desktop tool to find working DNS resolvers for `slipnet.exe`, then run a local balanced proxy pool.
 
