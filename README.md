@@ -9,8 +9,8 @@ Simple desktop tool to find working DNS resolvers for `slipnet.exe`, then run a 
 - Scans them in parallel and keeps only working ones.
 - Lets you pick which good resolvers to activate.
 - Starts local proxy servers:
-- `SOCKS5` on `0.0.0.0:1080`
-- `HTTP` on `0.0.0.0:8080`
+- `SOCKS5` on `your_local_ip:1080`
+- `HTTP` on `your_local_ip:8080`
 - Routes traffic through the active resolver pool with basic load balancing and failure cooldown.
 
 ## Requirements
