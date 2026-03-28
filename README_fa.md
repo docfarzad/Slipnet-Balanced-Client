@@ -41,7 +41,7 @@ pip install requests
 
 ## نحوه استفاده
 
-1به راحتی. نسخه آماده استفاده را از [اینجا](https://github.com/docfarzad/Slipnet-Balanced-Client/releases) دانلود و اجرا کنید. یا اگر برنامه نویس هستید، میتوانید در پایتون کد منبع را اجرا کنید:
+1. به راحتی. نسخه آماده استفاده را از [اینجا](https://github.com/docfarzad/Slipnet-Balanced-Client/releases) دانلود و اجرا کنید. یا اگر برنامه نویس هستید، میتوانید در پایتون کد منبع را اجرا کنید:
 ```bash
 python "Slipnet Balanced Client.py"
 ```
