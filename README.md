@@ -97,5 +97,5 @@ pyinstaller --onefile --noconsole --name "Slipnet Balanced Client" --add-binary 
 - **Scan is slow**: reduce worker count if your system/network is overloaded, or increase it for faster testing (with caution).
 
 ## Disclaimer
-- The app does not support encoded connection strings.
+- The app does not support encoded connection strings as these connections are locked and it is not possible to test them with third-party resolvers.
 - Use only on networks/systems where you have permission. You are responsible for compliant and legal usage.
