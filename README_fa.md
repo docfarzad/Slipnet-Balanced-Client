@@ -49,13 +49,13 @@ python "Slipnet Balanced Client.py"
 3. Slipnet connection string خود را وارد کنید.  
 4. مقدار Workers را تنظیم کنید و روی Start Scan کلیک کنید.  
 5. در حین یا پس از پایان اسکن، Resolver های سالم را انتخاب کنید.
-6.  روی Activate Selected کلیک کنید.
+6. روی Activate Selected کلیک کنید.
 7. استفاده از پروکسی:
    - SOCKS5: your_local_ip:1080
    - HTTP: your_local_ip:8080
 
 8. اختیاری: روی **Verify Good Resolvers' Quality** کلیک کنید تا برای تست فشار (stress test) اجرا شوند و موارد ناپایدار علامت‌گذاری شوند.
-9.  اگر Resolver های جدیدی را تیک زدید یا از حالت انتخاب در آوردید، دکمه Activate Selected را مجددا بزنید تا تغییرات به مجموعه ریزالور های پشت صحنه اعمال شوند.
+9. اگر Resolver های جدیدی را تیک زدید یا از حالت انتخاب در آوردید، دکمه Activate Selected را مجددا بزنید تا تغییرات به مجموعه ریزالور های پشت صحنه اعمال شوند.
 ---
 
 ## فرمت فایل Resolver
