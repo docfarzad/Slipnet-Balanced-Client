@@ -90,7 +90,12 @@ python "Slipnet Balanced Client.py"
 
 ## ساخت از سورس
 
+1. به پوشه (دایرکتوری) پروژه بروید  
+2. برنامه را بسازید (Build کنید)
+   
+```bash
 pyinstaller --onefile --noconsole --name "Slipnet Balanced Client" --add-binary "slipnet.exe;." "Slipnet Balanced Client.py"
+```
 
 ---
 
