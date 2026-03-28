@@ -1,7 +1,7 @@
 # Slipnet Balanced Client
 [ [English](https://github.com/docfarzad/Slipnet-Balanced-Client/tree/main) |‌ [فارسی / Persian](https://github.com/docfarzad/Slipnet-Balanced-Client/blob/main/README_fa.md) ]
 
-یک ابزار ساده دسکتاپ برای پیدا کردن DNS Resolverهای سالم برای `slipnet.exe` و سپس اجرای یک مجموعه پروکسی متعادل (balanced) به صورت محلی.
+یک ابزار ساده دسکتاپ برای پیدا کردن DNS Resolverهای سالم برای `slipnet.exe` و سپس اجرای یک پروکسی متعادل (balanced) به صورت محلی بر پایه اتصال هایی که سالم هستند.
 
 ---
 
